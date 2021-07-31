@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Tic-tac-toe Conquest</string>
+    <!--Main menu-->
+    <string name="player_1">1 Player</string>
+    <string name="player_2">2 Players</string>
+    <string name="high_scores">High Scores</string>
+    <string name="quit">Quit</string>
+    <string name="version">v 1.0.3</string>
+    <!--Game-->
+    <string name="computer_name">Computer</string>
+    <!--Ads-->
+    <string name="start">Start</string>
+    <string name="back_to_menu">Back to main menu</string>
+    <string name="resume">Resume</string>
+    <string name="player_1_name">Player X</string>
+    <string name="player_2_name">Player O</string>
+    <string name="player_1_name_x">Player X</string>
+    <string name="player_2_name_o">Player O</string>
+    <string name="play_again">Play again</string>
+    <string name="win_message">won!</string>
+    <string name="draw">Draw</string>
+    <string name="restart">Restart</string>
+    <!-- -
+        This is an ad unit ID for an interstitial test ad. Replace with your own interstitial ad unit id.
+        For more information, see https://support.google.com/admob/answer/3052638
+    <!- -->
+    <string name="interstitial_ad_unit_id">ca-app-pub-7634695009679307/5031967384</string>
+</resources>

@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ion.xo.FullScreenAdMob">
+
+    <!-- view for AdMob Interstitial Ad -->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/wall"/>
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1100dp"
+        android:text="@string/start" />
+
+    <Button
+        android:id="@+id/back_to_menu"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1100dp"
+        android:text="@string/back_to_menu" />
+
+    <Button
+        android:id="@+id/resume"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1100dp"
+        android:text="@string/resume" />
+
+    <Button
+        android:id="@+id/restart"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1100dp"
+        android:text="@string/restart" />
+
+    <Button
+        android:id="@+id/play_again"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1100dp"
+        android:text="@string/play_again" />
+
+    <TextView
+        android:id="@+id/message_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1100dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:text="" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/text_input_1"
+        android:layout_width="165dp"
+        android:textSize="25dp"
+        android:layout_marginTop="1100dp"
+        android:maxLength="7"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="165dp"
+            android:textSize="25dp"
+            android:maxLength="7"
+            android:layout_height="wrap_content"
+            android:hint="@string/player_1_name_x" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/text_input_2"
+        android:layout_width="165dp"
+        android:layout_marginTop="1100dp"
+        android:textSize="25dp"
+        android:maxLength="7"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="165dp"
+            android:textSize="25dp"
+            android:maxLength="7"
+            android:layout_height="wrap_content"
+            android:hint="@string/player_2_name_o" />
+    </com.google.android.material.textfield.TextInputLayout>
+</RelativeLayout>
